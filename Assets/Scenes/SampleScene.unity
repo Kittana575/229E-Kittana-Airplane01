@@ -223,7 +223,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: -1, z: 45.5}
-  m_LocalScale: {x: 17.336033, y: 1, z: 0.74457365}
+  m_LocalScale: {x: 25.357416, y: 1, z: 0.74457365}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -314,13 +314,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.28475985, y: -0, z: -0, w: 0.95859885}
-  m_LocalPosition: {x: 0, y: 18.06, z: -35.49}
+  m_LocalRotation: {x: 0.12340911, y: -0.69625443, z: 0.12340913, w: 0.69625443}
+  m_LocalPosition: {x: 103.7, y: 49.7, z: 49.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 33.089, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.102, y: -90, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -553,7 +553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2588324043980752577, guid: 9ac2f119ba3f5484bb9fe86abb3fb97a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.50306
+      value: -37.8
       objectReference: {fileID: 0}
     - target: {fileID: 2588324043980752577, guid: 9ac2f119ba3f5484bb9fe86abb3fb97a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -597,6 +597,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2927414171314363515, guid: 9ac2f119ba3f5484bb9fe86abb3fb97a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1589567691}
+    - targetCorrespondingSourceObject: {fileID: 2927414171314363515, guid: 9ac2f119ba3f5484bb9fe86abb3fb97a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1589567692}
     - targetCorrespondingSourceObject: {fileID: 7922870285310284051, guid: 9ac2f119ba3f5484bb9fe86abb3fb97a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1589567688}
@@ -682,6 +685,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1589567692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589567689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a425ab94fd35ff4cb8e755cad63eb02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  enginePower: 20
+  liftBooster: 0.5
+  drag: 0.001
+  angularDrag: 0.001
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
